@@ -57,9 +57,6 @@ resource "aws_security_group" "swarm_sg" {
       "0.0.0.0/0",
     ]
   }
-  tags {
-    Name = "swarm_sg"
-  }
 }
 
 ##Create Swarm Master Instance
